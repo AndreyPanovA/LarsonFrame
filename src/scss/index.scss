@@ -1,4 +1,16 @@
 $red: #333;
+@import "~normalize.css";
+@import "home-keys";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: $red;
+    color: white;
+    font-size: 12px;
+}
+a {
+    color: white;
 }
