@@ -1,0 +1,29 @@
+{
+  "name": "larsonframe",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyPanovA/LarsonFrame.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Panov Andrey <panov3107@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyPanovA/LarsonFrame/issues"
+  },
+  "homepage": "https://github.com/AndreyPanovA/LarsonFrame#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
